@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 import './interfacepro.sol';
 
-contract ERC20 is FACEERC20{
+contract ERC20 is IFACEERC20{
     
 uint public override totalSupply;// this is a state variable//
 mapping(address =>uint)public override balanceOf;
